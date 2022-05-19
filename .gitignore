@@ -1,0 +1,8 @@
+.idea
+node_modules
+cypress/videos
+cypress/screenshots
+build
+dist
+pack
+node_modules
