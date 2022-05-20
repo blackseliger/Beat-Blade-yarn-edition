@@ -12,7 +12,7 @@
 
 ## Preview
 
-(./preview.png)
+[![preview](./preview.png)]
 
 ## Tech stack
 
