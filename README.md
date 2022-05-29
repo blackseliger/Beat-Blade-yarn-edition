@@ -12,7 +12,7 @@
 
 ## Preview
 
-[![preview](./preview.png)](https://project-structure/)
+![preview](./preview.png)
 
 ## Tech stack
 
