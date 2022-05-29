@@ -2,6 +2,9 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/qd1ikcct4snkccyq?svg=true)](https://ci.appveyor.com/project/blackseliger/beat-blade-yarn-edition)
 Репозиторий ничем не отличается в по сравнению с исходным https://github.com/blackseliger/Beat-Blade
 
+GP :sparkles: https://blackseliger.github.io/Beat-Blade-yarn-edition/ :sparkles:
+
+
 **Important!**
 
 Для корректного билда следуйте версиям ниже
