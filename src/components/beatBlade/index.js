@@ -23,10 +23,14 @@ export default class BeatBlade {
         if (element.classList.contains('beadBlade__goblin')) {
             this.score += 1;
             success.textContent = this.score;
+
+            const random = this.getRandomIntInclusive(this.size * this.size);
+            this.subElements[random].append(this.subElements.goblin);
             if (this.score === 5) return alert('you are win');
 
             clearInterval(this.start);
             this.startGame();
+            
         } else {
             this.fail -= 1;
             failure.textContent = this.fail;
@@ -75,13 +79,14 @@ export default class BeatBlade {
 
     }
 
-    startGame() {
+    startGame(pick) {
 
         const { goblin } = this.subElements;
 
         if (goblin.classList.contains('beadBlade__img-hidden')) {
             goblin.classList.remove('beadBlade__img-hidden');
         }
+        
 
         this.start = setInterval(() => {
             const random = this.getRandomIntInclusive(this.size * this.size);
